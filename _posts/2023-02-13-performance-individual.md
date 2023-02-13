@@ -2,8 +2,8 @@
 title: Psicologia e Neurociências
 author: fziliotti
 date: 2023-02-13 02:33:00 +0800
-categories: [Web, Performance]
-tags: [web, performance, frontend]
+categories: ["Desenvolvimento Pessoal"]
+tags: [psicologia, neurosciencia]
 ---
 
 Ao longo de minha vida, sempre tive curiosidade e interesse sobre aspectos psicológicos, muito por questÕes pessoais como também pelo desafio que existe no entendimento do ser humano e suas relaçÕes. Psicologia foi a minha segunda opção desde o colegial, dado que meu interesse por tecnologia sempre existiu desde minha infância, quando usava Hacks em jogos de computador e observava meu irmão formatar, instalar programas e resolver problemas de computador em geral.
