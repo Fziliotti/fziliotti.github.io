@@ -1,5 +1,5 @@
 ---
-title: Minha primeira postagem
+title: Um pouco sobre performance na web
 author: fziliotti
 date: 2023-02-09 02:33:00 +0800
 categories: [Web, Performance]
@@ -8,21 +8,30 @@ tags: [web, performance, frontend]
 
 # Por que desempenho na Web é importante?
 
-Além de ganhos indiscutíveis na experiência do usuário, a melhoria no desempenho ou otimização de performance na web (WPO), possui impactos em vendas de empresas, em distribuição de conteúdo ([pelo impacto no SEO e ranqueamento de websites](https://developer.chrome.com/blog/search-ads-speed/#speed-is-now-used-as-a-ranking-factor-for-mobile-searches)) e de maneira indireta auxilia no gerenciamento de dados trafegados na rede, ainda que os [pesos das páginas crescem ao longo dos anos](https://httparchive.org/reports/page-weight#bytesTotal).
+Além de ganhos indiscutíveis na experiência do usuário, a melhoria no desempenho ou otimização de performance na web (WPO), possui impactos em vendas de empresas, em distribuição de conteúdo ([pelo impacto no SEO e ranqueamento de websites](https://developer.chrome.com/blog/search-ads-speed/#speed-is-now-used-as-a-ranking-factor-for-mobile-searches)) e também, mesmo que indiretamente no gerenciamento de dados trafegados na rede, ainda que os [pesos das páginas crescem ao longo dos anos](https://httparchive.org/reports/page-weight#bytesTotal).
 
-- https://wpostats.com/ - O que a melhora no desempenho pode impactar empresas
-- https://web.dev/tags/case-study/ - Casos de estudo do time do Google
-- https://httparchive.org/reports - Dados importantes sobre o estado da Web e elementos que impactam a performance e experiência das aplicações
+Recomendação de leitura:
+
+- https://wpostats.com/
+  - O que a melhora no desempenho pode impactar empresas.
+- https://web.dev/tags/case-study/
+  - Casos de estudo de diversas empresas divulgados pelo time do Google.
+- https://httparchive.org/reports
+  - Dados importantes sobre o estado atual da Web e histórico dos elementos relacionados à páginas e aplicaçÕes web.
 
 # Como medir desempenho?
 
 O desempenho de uma página inicialmente pode ser medido pelo tempo de carregamento das páginas, mas ao longo dos ultimos anos, medir o desempenho de um site está bastante atrelado à experiencia do usuário. Hoje uma das iniciativas mais interessantes é do webVitals, que visa medir o tempo de carregamento (FCP, LCP), a estabilidade visual (CLS) e o tempo de interatividade (TTI, FID).
 
-- https://web.dev/vitals/ - teoria sobre as métricas
-- https://github.com/GoogleChrome/lighthouse - ferramenta de auditoria do Google Chrome
-- https://gtmetrix.com/ - Ferramenta de auditoria
+Teoria sobre as métricas.
+
+- https://web.dev/vitals/
+
+Existem muitas ferramentas de auditoria, mas essas são as que eu utilizei e vi sendo as mais comuns e completas:
+
+- https://github.com/GoogleChrome/lighthouse
+- https://gtmetrix.com/
 - https://developers.google.com/speed
-- Existem outras ferramentas, mas essas são as que eu mais gostei de utilizar.
 
 A tabela a seguir mostra uma comparação entre as ferramentas de auditoria e as métricas do Web Vitals:
 
@@ -32,14 +41,16 @@ Fonte: https://web.dev/vitals-tools-2020/
 
 # Como aplicar técnicas de melhoria de performance?
 
-- https://www.patterns.dev/posts/loading-sequence/ - Entender os padrões de técnicas de performance
+Para entender as técnicas de performance:
+
+- https://www.patterns.dev/posts/loading-sequence/
 - Existem otimizações nos elementos básicos existentes em uma página e aplicação web (HTML, CSS, JAVASCRIPT) que em geral são a base das otimizacões, um trabalho bem legal que reuniu várias dicas é o webDiet do Zeno Rocha, o link da página é https://browserdiet.com/
-- Aplicar técnicas de melhorias baseado nos relatórios e dicas que as próprias ferramentas de auditoria reportam.
-- Nunca esquecer o impacto que as imagens possuem em seu site e realizar as otimizações como prover qualidades, tamanhos e formatos adequados, bem como usar técnicas de carregamento lento.
+- Aplicar técnicas de melhorias que os próprios relatórios e auditorias da página podem reportar.
+- Nunca esquecer o impacto que as imagens possuem no site e realizar as otimizações de imagens como: Prover qualidades adequadas para cada dispositivo, tamanhos e formatos adequados, bem como usar técnicas de carregamento lento, placeholder.
 
-# Dica bem legal
+# Modelos de renderização
 
-Estudar sobre os modelos de renderização existentes e o impacto de cada um, você pode começar por esse [link bem bacana](https://www.patterns.dev/posts/rendering-patterns/).
+Estudar sobre os modelos de renderização existentes e o impacto de cada um nas métricas do Web Vitals, você pode começar por esse [link bem bacana](https://www.patterns.dev/posts/rendering-patterns/).
 
 ---
 
