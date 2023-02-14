@@ -1,10 +1,12 @@
 ---
-title: Psicologia e Neurociências
+title: Anotações sobre Desenvolvimento Pessoal
 author: fziliotti
 date: 2023-02-13 02:33:00 +0800
 categories: ["Desenvolvimento Pessoal"]
-tags: [psicologia, neurosciencia]
+tags: [psicologia, neurosciencias]
 ---
+
+# Introdução
 
 Ao longo de minha vida, sempre tive curiosidade e interesse sobre aspectos psicológicos, muito por questÕes pessoais como também pelo desafio que existe no entendimento do ser humano e suas relaçÕes. Psicologia foi a minha segunda opção desde o colegial, dado que meu interesse por tecnologia sempre existiu desde minha infância, quando usava Hacks em jogos de computador e observava meu irmão formatar, instalar programas e resolver problemas de computador em geral.
 
@@ -43,6 +45,6 @@ Bom, vou deixar listado abaixo esses pensamentos, ideias e ensinamentos.
 
 # Conclusão
 
-Sei que é um texto bem superficial no primeiro momento, mas cada frase tráz entendimentos importantes para mim. Gosto bastante de tentar encher o "copo meio cheio" das coisas e acredito que isso é importante sim para nosso sucesso, seja financeiro ou psicológico ao longo de nossa vida.
+Sei que é um texto bem superficial no primeiro momento, mas cada frase reflete entendimentos importantes que reuni ao longo de cursos e estudos sobre essa assunto. Gosto bastante de tentar enxergar o "copo meio cheio" e acredito que ser positivo na maioria das vezes vai ser melhor para nossa qualidade de vida.
 
-Aos poucos pretendo melhorar esse texto e espero que impacte positivamente
+Aos poucos pretendo melhorar esse texto e espero que impacte positivamente quem separou um tempinho para ler e refletir. Obrigado.
