@@ -1,5 +1,5 @@
 ---
-title: Um pouco sobre performance na web
+title: Um pouco de Desempenho na Web
 author: fziliotti
 date: 2023-02-09 02:33:00 +0800
 categories: [Web, Performance]
