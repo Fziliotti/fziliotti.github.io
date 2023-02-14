@@ -26,13 +26,13 @@ description: >- # used by seo meta and the atom feed
   Fabrício Ziliotti - Compartilhando ideias de programação e engenharia de software
 
 # fill in the protocol & hostname for your site, e.g., 'https://username.github.io'
-url: ""
+url: "https://fziliotti.github.io"
 
 github:
-  username: github_username # change to your github username
+  username: fziliotti # change to your github username
 
 twitter:
-  username: twitter_username # change to your twitter username
+  username: devziliotti # change to your twitter username
 
 social:
   # Change to your full name.
@@ -115,7 +115,7 @@ assets:
 pwa:
   enabled: true # the option for PWA feature
 
-paginate: 10
+paginate: 8
 
 # ------------ The following options are not recommended to be modified ------------------
 
