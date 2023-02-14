@@ -1,5 +1,5 @@
 ---
-title: Um pouco de Desempenho na Web
+title: Desempenho na Web
 author: fziliotti
 date: 2023-02-09 02:33:00 +0800
 categories: [Web, Performance]
@@ -60,7 +60,7 @@ Estudar sobre os modelos de renderização existentes e o impacto de cada um nas
 
 Mapa mental que criei para reunir de maneira simplificado os elementos, técnicas e assuntos relacionados ao assunto de Desempenho na Web.
 
-![image](https://user-images.githubusercontent.com/28535210/184283382-f7f62631-b57c-41a7-be9e-4c49aff2fad5.png)
+![image](/assets/img/web-perf/web-perf.png)
 
 ---
 

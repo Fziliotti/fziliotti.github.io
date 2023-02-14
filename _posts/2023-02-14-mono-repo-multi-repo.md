@@ -8,9 +8,9 @@ tags: [web, monorepo, multirepo]
 
 # MonoRepo x Multirepo
 
-Monolito: 1 repositório para 1 projeto.
-Monorepo: 1 repositório para N projetos.
-Multirepo/Polirepo: N repositórios para N projetos.
+- Monolito: 1 repositório para 1 projeto.
+- Monorepo: 1 repositório para N projetos.
+- Multirepo/Polirepo: N repositórios para N projetos.
 
 ## Pontos positivos Monorepo:
 
