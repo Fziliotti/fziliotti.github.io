@@ -112,8 +112,8 @@ assets:
     # only works if `assets.self_host.enabled` is 'true'
     env: # [development|production]
 
-pwa:
-  enabled: true # the option for PWA feature
+# pwa:
+#   enabled: true # the option for PWA feature
 
 paginate: 8
 
