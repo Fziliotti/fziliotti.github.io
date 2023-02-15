@@ -20,7 +20,7 @@ timezone: America/Sao_Paulo
 
 title: Fabrício Ziliotti # the main title
 
-tagline: Meu repositório de conhecimento # it will display as the sub-title
+tagline: Meu repositório de conhecimento e blog pessoal # it will display as the sub-title
 
 description: >- # used by seo meta and the atom feed
   Fabrício Ziliotti - Compartilhando ideias de programação e engenharia de software
@@ -69,7 +69,7 @@ google_analytics:
 #     light  - Use the light color scheme
 #     dark   - Use the dark color scheme
 #
-theme_mode: dark
+theme_mode: ""
 
 # The CDN endpoint for images.
 # Notice that once it is assigned, the CDN url
@@ -195,4 +195,4 @@ jekyll-archives:
     tag: tag
   permalinks:
     tag: /tags/:name/
-    category: /categories/:name/
+    category: /categorias/:name/
