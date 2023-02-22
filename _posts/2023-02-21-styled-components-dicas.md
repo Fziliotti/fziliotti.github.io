@@ -9,7 +9,7 @@ tags: [seo, web]
 
 Styled-components é uma biblioteca Javascript responsável por permitir o uso de CSS dentro do Javascript. Isso facilita a criação de componentes inteligentes sem a necessidade de criação de muitas classes. Além disso, ele facilita a integração e interação entre Apps Web e Mobile, por conta do funcionamento para React e React-Native.
 
-Existem vários outros benefícios e motivaçÕes que podem ser lidos na [documentação oficial da biblioteca.]([https://](https://styled-components.com/docs/basics#motivation))
+Existem vários outros benefícios e motivaçÕes que podem ser lidos na [documentação oficial da biblioteca.](https://styled-components.com/docs/basics#motivation)
 
 # Criação de Temas
 
