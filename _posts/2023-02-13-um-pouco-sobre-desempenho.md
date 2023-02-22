@@ -21,13 +21,13 @@ Recomendação de leitura:
 
 # Como medir desempenho?
 
-O desempenho de uma página inicialmente pode ser medido pelo tempo de carregamento das páginas, mas ao longo dos ultimos anos, medir o desempenho de um site está bastante atrelado à experiencia do usuário. Hoje uma das iniciativas mais interessantes é do webVitals, que visa medir o tempo de carregamento (FCP, LCP), a estabilidade visual (CLS) e o tempo de interatividade (TTI, FID).
+O desempenho de uma página inicialmente pode ser medido pelo tempo de carregamento das páginas, mas ao longo dos ultimos anos, medir o desempenho de um site está bastante atrelado à experiencia do usuário. Hoje uma das iniciativas mais interessantes é o projeto do WebVitals, que visa medir o tempo de carregamento (FCP, LCP), a estabilidade visual (CLS) e o tempo de interatividade (TTI, FID).
 
 Teoria sobre as métricas.
 
 - https://web.dev/vitals/
 
-Existem muitas ferramentas de auditoria, mas essas são as que eu utilizei e vi sendo as mais comuns e completas:
+Existem muitas ferramentas de auditoria, mas essas são as que eu utilizei e percebi que são as mais comuns e completas:
 
 - https://github.com/GoogleChrome/lighthouse
 - https://gtmetrix.com/
