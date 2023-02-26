@@ -44,8 +44,17 @@ Se você terminou a feature na branch e quer jogar para master, use `git pull` o
 
 > Esse comando vai configurar o upstream que será a branch master. Dessa forma, para comandos diretos como `git pull e git push` a referência da branch que será usada como a referencia para as atualizações será a master.
 
+## Como editar commits com erros?
 
-## Como reverter commits
+Para um cenário em que você descreveu um commit da forma errada, você pode editar o commit usando o comando `git commit --amend` que vai abrir a interface do git e você pode editar as informações de commit.
+
+Se você quiser incluir determinada alteração que ficou faltando, você utiliza o mesmo processo. Pode utilizar o `git show __commit-id__` para validar se as alterações estão corretas.
+
+## Como juntar dois commits em um só?
+
+Para juntar dois commits diferentes em um único commit, você pode usar o `git rebase -i HEAD~3` e de maneira interativa, escolher o que você quer fazer com os commits.
+
+## Como reverter commits?
 
 - O comando `git revert __id-commit__` vai ser responsável por reverter as alterações feitas de determinado commit, de maneira rápida.
   - É importante destacar que esse comando irá criar um novo commits de reversão. Sem apagar o antigo commit do histórico.
@@ -54,6 +63,12 @@ Se você terminou a feature na branch e quer jogar para master, use `git pull` o
 - Outra técnica para reverter commits é utilizar o `git reset --hard __commit-id__` e também o `git reset --soft __commit-id__`
   - Interessante para branchs próprios, diferentes de branchs principais como master e qa por exemplo.
 
+
+## Habilitar o auto-correct do Git
+
+Para auxiliar em momentos que você digita errado os comandos do git, como `git committ` ou `git stattus`, você pode ativar uma configuração global do git para auxiliar nisso.
+
+O comando é `git config --global help.autocorrect 1`
 
 ## Extensões do VSCODE
 
