@@ -1,5 +1,5 @@
 ---
-title: Anotações sobre github
+title: Anotações sobre Graphql
 author: fziliotti
 date: 2023-02-22 04:33:00 +0800
 categorias: ["Dev"]
@@ -35,17 +35,20 @@ devDependencies:
 - typescript
 
 ### Front-end
-dependencies
+dependencies:
 - @apollo/client
 - graphql
 - react
 - react-dom
 
-devDependencies
+devDependencies:
 - @types/react
 - @types/react-dom
 - @vitejs/plugin-react
 - typescript
 - vite
 
-Repositório: 
+> O projeto foi baseado em um projeto da Rockeseat e gostei bastante das tecnologias, apesar de ter ficado um pouco superficial em termos de funcionalidades. 
+
+## Próximos passos
+Aos pouco pretendo melhorar o projeto com funcionalidades mais complexas com as tecnologias.
