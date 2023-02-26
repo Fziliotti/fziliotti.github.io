@@ -89,3 +89,15 @@ Além dos aliases configurados para o git presentes nessa postagem que fiz dias 
 - Essa é uma extensão bem completa que oferecem uma gama de recursos para o vscode. Recursos como mostrar histórico e identificar os últimos alteradores das linhas de códigos como o Git Blame, facilita tambem na navegação entre branchs e commits e Histórico de commits de maneira mais visual. A extensão é bem completa e vale a pena testar.
 
 
+## Criação de templates para PRs e Issues no Github
+
+Você pode criar padronizações para os seus Pull Requests e Issues do repositório.
+
+O link a seguir explica de maneira simples como fazer isso:
+
+[https://github.com/devspace/awesome-github-templates]([https://](https://github.com/devspace/awesome-github-templates))
+
+
+## Workflows do GIT
+
+Em construção...
