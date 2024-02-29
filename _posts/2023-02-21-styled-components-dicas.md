@@ -2,7 +2,7 @@
 title: Iniciando com Styled Components no React
 author: fziliotti
 date: 2023-02-21 04:33:00 +0800
-categorias: ["React", "CSS-in-JS"]
+categories: ["React", "CSS-in-JS"]
 tags: [seo, web]
 ---
 # Introdução

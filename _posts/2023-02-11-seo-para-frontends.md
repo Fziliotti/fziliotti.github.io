@@ -2,7 +2,7 @@
 title: SEO para frontends
 author: fziliotti
 date: 2023-02-11 04:33:00 +0800
-categorias: ["SEO"]
+categories: ["SEO"]
 tags: [seo, web]
 ---
 

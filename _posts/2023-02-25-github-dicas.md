@@ -2,7 +2,7 @@
 title: Anotações sobre github
 author: fziliotti
 date: 2023-02-22 04:33:00 +0800
-categorias: ["Dev", "Git"]
+categories: ["Dev", "Git"]
 tags: [github, tools]
 ---
 

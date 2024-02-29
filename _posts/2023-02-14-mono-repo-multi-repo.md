@@ -2,7 +2,7 @@
 title: Anotações sobre monorepos e multirepos
 author: fziliotti
 date: 2023-02-14 02:33:00 +0800
-categorias: [Web]
+categories: [Web]
 tags: [web, monorepo, multirepo]
 ---
 

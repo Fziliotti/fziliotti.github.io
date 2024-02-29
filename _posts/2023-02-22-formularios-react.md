@@ -2,7 +2,7 @@
 title: Formulários em React
 author: fziliotti
 date: 2023-02-22 04:33:00 +0800
-categorias: ["Dev", "Setup"]
+categories: ["Dev", "Setup"]
 tags: [setup, configs]
 ---
 
