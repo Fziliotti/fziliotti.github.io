@@ -56,9 +56,74 @@ const handleClick = (e: React.MouseEvent<HTMLButtonElement>) => {
 };
 ```
 
+## Uso de Generics no React
+
+Se você estiver criando componentes que precisam ser flexíveis o suficiente para lidar com diferentes tipos de dados, os generics podem ser úteis .
+
+```js
+interface ListItem {
+    id: number;
+    text: string;
+}
+
+interface ListProps<T> {
+    data: T[];
+    renderItem: (item: T) => React.ReactNode;
+}
+
+function List<T>({ data, renderItem }: ListProps<T>) {
+    return (
+        <ul>
+            {data.map(item => (
+                <li key={item.id}>{renderItem(item)}</li>
+            ))}
+        </ul>
+    );
+}
+
+// Uso do componente List
+const items: ListItem[] = [
+    { id: 1, text: "Item 1" },
+    { id: 2, text: "Item 2" },
+    { id: 3, text: "Item 3" }
+];
+
+const renderItem = (item: ListItem) => <span>{item.text}</span>;
+
+const MyListComponent = () => {
+    return <List data={items} renderItem={renderItem} />;
+};
+
+```
+
+Outra situação que pode acontecer é no uso de hooks personalizados, um exemplo:
+
+```js
+import { useState } from 'react';
+
+function useLocalStorage<T>(key: string, initialValue: T): [T, (value: T) => void] {
+    const [storedValue, setStoredValue] = useState<T>(() => {
+        const item = localStorage.getItem(key);
+        return item ? JSON.parse(item) : initialValue;
+    });
+
+    const setValue = (value: T) => {
+        setStoredValue(value);
+        localStorage.setItem(key, JSON.stringify(value));
+    };
+
+    return [storedValue, setValue];
+}
+
+// Uso do hook personalizado
+const [name, setName] = useLocalStorage<string>('name', 'John');
+
+
+```
+
 # Referências para consultar e aprender mais
 
 Documentação Oficial do TypeScript:
 
-- [TypeScript Handbook]([https://](https://www.typescriptlang.org/docs/handbook/intro.html))
-- [React TypeScript Cheatsheet]([https://](https://react-typescript-cheatsheet.netlify.app/))
+- [TypeScript Handbook](https://https://www.typescriptlang.org/docs/handbook/intro.html)
+- [React TypeScript Cheatsheet](https://https://react-typescript-cheatsheet.netlify.app/)

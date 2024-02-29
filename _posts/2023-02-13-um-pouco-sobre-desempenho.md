@@ -2,7 +2,7 @@
 title: Desempenho na Web
 author: fziliotti
 date: 2023-02-09 02:33:00 +0800
-categories: [Web, Performance]
+categorias: [Web, Performance]
 tags: [web, performance, frontend]
 ---
 
