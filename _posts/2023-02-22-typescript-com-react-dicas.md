@@ -32,3 +32,33 @@ export function Avatar({ hasBorder = true, ...props}: AvatarProps) {
 ```
 
 
+## Integração com APIs
+
+```js
+interface UserData {
+    id: number;
+    name: string;
+    email: string;
+}
+
+const fetchUserData = async (): Promise<UserData> => {
+    const response = await axios.get<UserData>('https://api.example.com/user');
+    return response.data;
+};
+```
+
+
+## Trabalhando com Eventos
+
+```js
+const handleClick = (e: React.MouseEvent<HTMLButtonElement>) => {
+    console.log('Button clicked');
+};
+```
+
+# Referências para consultar e aprender mais
+
+Documentação Oficial do TypeScript:
+
+- [TypeScript Handbook]([https://](https://www.typescriptlang.org/docs/handbook/intro.html))
+- [React TypeScript Cheatsheet]([https://](https://react-typescript-cheatsheet.netlify.app/))
