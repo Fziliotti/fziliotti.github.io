@@ -2,8 +2,8 @@
 title: SEO para frontends
 author: fziliotti
 date: 2023-02-11 04:33:00 +0800
-categories: ["SEO"]
-tags: [seo, web]
+categories: ["Desenvolvimento", "SEO"]
+tags: [frontend, seo]
 ---
 
 # SEO (Search Engine Optimization ou Otimização para motores de busca)

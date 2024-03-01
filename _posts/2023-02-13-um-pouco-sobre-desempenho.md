@@ -2,8 +2,8 @@
 title: Desempenho na Web
 author: fziliotti
 date: 2023-02-09 02:33:00 +0800
-categories: [Web, Performance]
-tags: [web, performance, frontend]
+categories: [Desenvolvimento, Performance]
+tags: [performance,frontend]
 ---
 
 # Por que desempenho na Web é importante?

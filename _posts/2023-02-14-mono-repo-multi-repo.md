@@ -2,8 +2,8 @@
 title: Anotações sobre monorepos e multirepos
 author: fziliotti
 date: 2023-02-14 02:33:00 +0800
-categories: [Web]
-tags: [web, monorepo, multirepo]
+categories: ["Desenvolvimento"]
+tags: [Engenharia, arquitetura]
 ---
 
 # MonoRepo x Multirepo

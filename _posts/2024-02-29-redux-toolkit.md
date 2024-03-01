@@ -2,8 +2,8 @@
 title: Redux toolkit - exemplo simples
 author: fziliotti
 date: 2024-02-29 04:33:00 +0800
-categories: ["Dev", "Frontend"]
-tags: [dev, frontend]
+categories: ["Desenvolvimento"]
+tags: [frontend]
 ---
 
 ## Introdução

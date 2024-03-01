@@ -2,8 +2,8 @@
 title: Anotações sobre Desenvolvimento Pessoal
 author: fziliotti
 date: 2023-02-13 02:33:00 +0800
-categories: ["Desenvolvimento Pessoal"]
-tags: [psicologia, neurosciencias]
+categories: ["Autoconhecimento"]
+tags: [psicologia]
 ---
 
 # Introdução

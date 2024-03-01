@@ -2,8 +2,8 @@
 title: Anotações sobre github
 author: fziliotti
 date: 2023-02-22 04:33:00 +0800
-categories: ["Dev", "Git"]
-tags: [github, tools]
+categories: ["Desenvolvimento", "Git"]
+tags: [git]
 ---
 
 ## Para verificar os comandos existentes:
