@@ -1,9 +1,9 @@
 ---
-title: Dicas sobre segurança no frontend
+title: "Google Recaptcha: Exemplo prático"
 author: fziliotti
 date: 2024-02-29 04:33:00 +0800
 categories: ["Desenvolvimento"]
-tags: [frontend]
+tags: [frontend, backend]
 ---
 
 
@@ -104,3 +104,8 @@ O funcionamento é bem simples:
 - No backend, ao receber os dados preenchidos no formulário, você envia a resposta do Recaptcha, incluindo o SECRET_KEY, para a API do Google para verificação.
 - A API retorna se a validação foi bem-sucedida e um score, indicando a confiabilidade do usuário.
 - Se o Recaptcha validar com sucesso e o score for aceitável (geralmente acima de 0.3), o processamento do formulário continua.
+
+### Para aprofundar mais
+
+- https://developers.google.com/recaptcha/docs/v3 - API de propósito geral
+- https://cloud.google.com/recaptcha-enterprise/docs/overview - API voltada para empresas
