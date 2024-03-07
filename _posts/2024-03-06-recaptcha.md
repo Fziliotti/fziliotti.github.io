@@ -105,7 +105,11 @@ O funcionamento é bem simples:
 - A API retorna se a validação foi bem-sucedida e um score, indicando a confiabilidade do usuário.
 - Se o Recaptcha validar com sucesso e o score for aceitável (geralmente acima de 0.3), o processamento do formulário continua.
 
-### Para aprofundar mais
+Tanto o recaptcha v3 quanto o recaptcha-enterprise possuem o mesmo propósito e API parecida. O diagrama abaixo, retirado da documentação do Google, exemplifica o mesmo comportamento do nosso exemplo.
+
+![alt text](/assets/img/recaptcha/image.png)
+
+### Para aprofundar mais:
 
 - https://developers.google.com/recaptcha/docs/v3 - API de propósito geral
 - https://cloud.google.com/recaptcha-enterprise/docs/overview - API voltada para empresas
