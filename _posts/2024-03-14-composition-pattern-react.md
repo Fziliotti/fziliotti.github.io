@@ -163,8 +163,29 @@ Apesar de que nesse exemplo a forma sem o pattern Composition fique bem fácil d
 
 ### Conclusão
 
-Neste post, exploramos o poder do composition pattern em React, utilizando os componentes CustomButton, CustomIcon e CustomText como exemplos. Ao adotar este padrão de design, somos capazes de criar componentes mais flexíveis, reutilizáveis e fáceis de manter em nossos projetos.
+A escolha entre usar o composition pattern e criar um componente de botão sem o composition pattern depende das necessidades específicas do seu projeto, do seu estilo de codificação e das preferências da sua equipe. Vamos considerar algumas vantagens e desvantagens de cada abordagem:
 
-Além disso, o composition pattern promove a separação de responsabilidades, tornando nosso código mais modular e fácil de entender. Cada componente tem uma única responsabilidade e pode ser facilmente substituído ou estendido conforme necessário, sem afetar outras partes do aplicativo.
+#### Composition Pattern:
 
-Por fim, o composition pattern pode ser usado em contextos como esse de botão e componentes que podem ser compostos como Modais (Header, ActionButtons, Content).
+**Vantagens:**
+- Modularidade: Permite criar componentes mais modulares e reutilizáveis, facilitando a construção e a manutenção de interfaces complexas.
+- Flexibilidade: Componentes individuais podem ser combinados de várias maneiras para criar uma variedade de interfaces.
+- Separação de Responsabilidades: Cada componente tem uma única responsabilidade, facilitando a compreensão e a manutenção do código.
+
+**Desvantagens:**
+- Complexidade Adicional: Pode exigir um pouco mais de trabalho para criar e gerenciar vários componentes em comparação com uma abordagem menos modular.
+- Overhead de Abstração: Em alguns casos, a criação de muitos componentes pequenos pode levar a um aumento na complexidade e no overhead de abstração.
+
+
+#### Sem Composition Pattern:
+
+**Vantagens:**
+- Simplicidade: Pode ser mais simples e direto criar componentes sem dividir a funcionalidade em partes menores.
+- Menos Overhead: Menos abstrações e componentes podem levar a menos overhead de gerenciamento.
+
+**Desvantagens:**
+- Menos Modularidade: Componentes podem ser menos modulares e reutilizáveis, tornando mais difícil a manutenção de interfaces complexas.
+
+- Dificuldade em Extensão: Pode ser mais difícil estender ou modificar componentes sem quebrar outras partes do código.
+
+Em geral, o **composition pattern** é amplamente preferido na comunidade React devido à sua capacidade de criar componentes mais flexíveis e modulares. No entanto, a abordagem **sem composition pattern** pode ser adequada em casos simples ou em projetos onde a simplicidade é mais valorizada do que a flexibilidade e a reutilização.
