@@ -1,7 +1,7 @@
 ---
 title: "Relembrando Patterns: Singleton, Proxy, Prototype, Observer..."
 author: fziliotti
-date: 2024-02-29 04:33:00 +0800
+date: 2024-03-14 04:33:00 +0800
 categories: ["Desenvolvimento"]
 tags: [frontend]
 ---
