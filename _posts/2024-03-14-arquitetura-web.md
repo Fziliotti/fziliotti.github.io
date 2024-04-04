@@ -17,26 +17,7 @@ Recentemente estou auxiliando em entrevistas para engenheiros frontend, principa
 
 Em um contexto geral, arquitetura refere-se à estrutura fundamental ou organização subjacente de um sistema ou entidade. Quando aplicado a sistemas de software, como aplicativos web, a arquitetura descreve a maneira como os diferentes componentes do sistema interagem entre si e com o ambiente externo.
 
-A arquitetura de software é uma representação abstrata do sistema que define sua estrutura, comportamento, e interações. Ela geralmente inclui aspectos como:
-
-1. **Componentes e Módulos:** Os blocos de construção do sistema, que podem incluir módulos de software, bibliotecas, serviços, etc.
-
-2. **Conectores:** Os mecanismos que permitem a comunicação e interação entre os componentes, como APIs, protocolos de comunicação, barramentos de eventos, etc.
-
-3. **Padrões de Integração:** Conjuntos de diretrizes ou abordagens para integrar diferentes partes do sistema, garantindo coesão e baixo acoplamento.
-
-4. **Distribuição:** Se o sistema é distribuído ou monolítico, e como os diferentes componentes são distribuídos fisicamente (por exemplo, em diferentes servidores, contêineres, etc.).
-
-5. **Escalabilidade e Desempenho:** Considerações sobre como o sistema pode crescer para atender a demandas crescentes de usuários, bem como garantir a eficiência e o desempenho.
-
-6. **Segurança:** Mecanismos para proteger o sistema contra ameaças externas e garantir a integridade, confidencialidade e disponibilidade dos dados.
-
-7. **Persistência de Dados:** Como os dados são armazenados, acessados e manipulados pelo sistema, incluindo estruturas de banco de dados, caches, etc.
-
-8. **Aspectos Não-Funcionais:** Requisitos que não estão diretamente relacionados às funcionalidades do sistema, como disponibilidade, confiabilidade, manutenibilidade e usabilidade.
-
-Em resumo, a arquitetura de software é essencial para garantir que um sistema de software seja robusto, flexível, escalável e atenda aos requisitos funcionais e não-funcionais definidos para ele. É a base sobre a qual todo o desenvolvimento e manutenção de software são construídos.
-
+A arquitetura de software é uma representação abstrata do sistema que define sua estrutura, comportamento, e interações.
 
 ## Arquitetura na web:
 
@@ -60,7 +41,8 @@ A arquitetura de uma aplicação web engloba:
 
 ## No contexto React:
 
-**Padrões de Arquitetura: **
+**Padrões de Arquitetura:** 
+
 - Arquitetura MVC (Model-View-Controller)
 - Arquitetura MVVM (Model-View-ViewModel)
 - Arquitetura Flux (comumente usado em aplicações React)
@@ -120,6 +102,5 @@ A arquitetura de uma aplicação web engloba:
 - Logging e captura de erros
 
 ## Referências
-
 - Para aprofundar no tema de Software Design e Arquitetura, recomendo o link:
   - https://roadmap.sh/software-design-architecture
